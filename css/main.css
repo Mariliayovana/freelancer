@@ -1,5 +1,70 @@
 /*Estilos de tu proyecto */
-* {
-    font-family: 'Montserrat', sans-serif; 
-    font-family: 'Lato', sans-serif;
+*{
+  margin: 0;
+}
+.letra-Mon{
+  font-family: 'Montserrat', sans-serif;
+}
+.letra-lato{
+  font-family: 'Lato', sans-serif;
+}
+body {
+text-align: center;
+font-family: 'Lato', sans-serif;
+color: #fff;
+margin: 0;
+}
+.header{
+  background: #2c3e50;
+  padding: 10px 0;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.main-logo{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  font-weight:bold;
+  font-size: 26px;
+  margin-top: 20px;
+}
+.navegador ul{
+  display: flex;
+  flex-direction: initial;
+  padding:17px;
+   list-style:none; /* es para quitar el punto */
+}
+.navegador li{
+  text-decoration: none
+}
+.navegador a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 30px;
+}
+a:hover {
+  color: #18bc9c;
+}
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+} 
+.text-uppercase {
+  text-transform: uppercase;
+}
+.start{
+  background: #18bc9c;
+  margin-top: 105px;
+  height: 718px;
+}
+.img-profile{
+margin-top: 5em ;
 }
